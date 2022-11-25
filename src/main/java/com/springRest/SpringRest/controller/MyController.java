@@ -20,7 +20,7 @@ public class MyController {
 	
 	
 	
-	@GetMapping("/")
+	@GetMapping("/books")
 	public String getBooks(Model model){
 
 		model.addAttribute("listBooks", bookService.getBooks());
