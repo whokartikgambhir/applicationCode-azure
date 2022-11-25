@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://kartikserver.database.windows.net:1433;database=library;user=kartikgambhir@kartikserver;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: kartikgambhir
+    password: HelloWorld@2000
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 8059
+
+
